@@ -1,0 +1,25 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background-color: #1a1a1a; color: #fff; font-family: 'Arial Black', sans-serif; }
+
+.navbar { display: flex; justify-content: space-between; padding: 30px 10%; background: #111; }
+.nav-links { display: flex; list-style: none; gap: 40px; }
+.nav-links a { color: #fff; text-decoration: none; font-weight: 800; letter-spacing: 2px; }
+
+.hero { height: 60vh; display: flex; align-items: center; justify-content: center; text-align: center; background: #000; }
+.hero h1 { font-size: 6rem; line-height: 0.9; text-transform: uppercase; }
+.accent { color: #ff4500; }
+
+.section-title { text-align: center; padding: 60px 0; font-size: 3rem; text-transform: uppercase; }
+
+.work-item { display: flex; align-items: center; padding: 50px 10%; gap: 50px; }
+.work-item.reverse { flex-direction: row-reverse; }
+.work-item img { width: 40%; border: 5px solid #333; }
+.work-content h3 { font-size: 2.5rem; color: #ff4500; margin-bottom: 20px; }
+.work-content p { font-size: 1.2rem; line-height: 1.6; color: #aaa; }
+
+.facts { background: #111; padding: 80px 10%; }
+.facts-container { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.fact { border-left: 4px solid #ff4500; padding-left: 20px; }
+
+.footer { padding: 100px; text-align: center; }
+.cta { background: #ff4500; color: #fff; padding: 20px 50px; text-decoration: none; font-weight: bold; font-size: 1.5rem; }
